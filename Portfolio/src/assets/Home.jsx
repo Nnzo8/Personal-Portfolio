@@ -1,9 +1,11 @@
 function Home() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
-        <p className="text-xl text-gray-600">Frontend Developer | React Specialist</p>
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-gray-800 text-white px-4">
+      <div className="text-center space-y-8 animate-fadeIn">
+        <h1 className="text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
+          Hi, I am Nino Rollane D. Ocliasa
+        </h1>
+        <p className="text-2xl text-gray-300">Frontend Developer | UI/UX Designer</p>
       </div>
     </section>
   );
