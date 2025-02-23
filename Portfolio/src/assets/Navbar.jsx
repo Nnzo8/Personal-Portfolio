@@ -3,7 +3,7 @@ function Navbar() {
     <nav className="p-4 bg-gray-900/80 backdrop-blur-sm text-white fixed w-full z-50">
       <div className="container mx-auto">
         <ul className="flex justify-center space-x-8">
-          {["Home", "About", "CV","Projects", "Contact"].map((item) => (
+          {["Home", "CV","Projects", "Contact"].map((item) => (
             <li key={item}>
               <a 
                 href={`#${item.toLowerCase()}`}

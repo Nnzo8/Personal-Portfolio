@@ -12,10 +12,6 @@ function Projects() {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Project {project}</h3>
                 <p className="text-gray-400 mb-4">A brief description of your amazing project goes here.</p>
-                <div className="flex gap-2">
-                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">React</span>
-                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">Tailwind</span>
-                </div>
               </div>
             </div>
           ))}
